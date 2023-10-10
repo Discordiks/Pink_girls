@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "ofont.ru_VillaPhelomena";
+    src: url("fonts/ofont.ru_VillaPhelomena.ttf");
+}
+
+@font-face {
+    font-family: "ofont.ru_Czizh";
+    src: url("fonts/ofont.ru_Czizh.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "ofont.ru_VillaPhelomena";
+    background: #FFECF8;
+}
+
+.main {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    flex-shrink: 0;
+    background: #FB3DBC;
+    margin: 0 auto;
+
+
+}
+
+.header__text {
+    width: 980px;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 300px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__title {
+    margin: 0;
+
+}
+
+.nav__mini-title {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.spacer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 980px;
+    height: 10px;
+    flex-shrink: 0;
+    background: rgba(251, 61, 188, 0.85);
+}
+
+.pers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pers__title {
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pers__foto {
+    width: 980px;
+    height: 542px;
+    flex-shrink: 0;
+}
+
+.pers__info {
+    text-indent: 50px;
+    text-align: justify;
+    font-family: "ofont.ru_Czizh";
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+
+    width: 100%;
+    height: 120px;
+    background: #FB3DBC;
+
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer p {
+    margin: 0;
+
+}
+
+.footer__tel {
+    font-family: "ofont.ru_Czizh";
+    text-decoration: none;
+}
